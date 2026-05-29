@@ -91,34 +91,32 @@ export function Hero() {
             <source src="/hero-scrub.mp4" type="video/mp4" />
           </video>
 
-          <div className="pointer-events-none absolute inset-x-0 top-0 z-10 h-44 bg-gradient-to-b from-bone via-bone to-transparent md:hidden" />
+          <div className="pointer-events-none absolute inset-x-0 top-0 z-10 h-44 bg-gradient-to-b from-black/50 to-transparent md:hidden" />
 
-          {/* Bottom fade into bone */}
-          <div className="pointer-events-none absolute inset-x-0 bottom-0 z-10 h-40 bg-gradient-to-b from-transparent via-bone to-bone md:h-32" />
         </div>
 
         {/* Content overlay — top-left, above the pizza */}
         <div className="pointer-events-none absolute inset-0 z-20 flex">
           <div className="pointer-events-auto mx-auto flex w-full max-w-[1400px] items-start px-6 pt-28 md:px-12 md:pt-36 lg:px-14">
             <div className="max-w-md">
-              <h1 className="font-display text-[36px] leading-[0.95] tracking-tight text-ink sm:text-[44px] md:text-[58px] lg:text-[68px]">
+              <h1 className="font-display text-[36px] leading-[0.95] tracking-tight text-bone drop-shadow-[0_2px_12px_rgba(0,0,0,0.35)] sm:text-[44px] md:text-[58px] lg:text-[68px]">
                 Frisch gerollt,
                 <br />
-                <span className="italic text-rosso-600">frisch gepresst.</span>
+                <span className="italic text-basilico-300">frisch gepresst.</span>
               </h1>
-              <p className="mt-5 max-w-sm font-mono text-[12px] uppercase tracking-[0.2em] text-ink/65 md:text-[13px]">
+              <p className="mt-5 max-w-sm font-mono text-[12px] uppercase tracking-[0.2em] text-bone/75 drop-shadow-[0_1px_4px_rgba(0,0,0,0.3)] md:text-[13px]">
                 Wraps, Bowls und Säfte aus der Poststraße. Mitten in Bergheim.
               </p>
               <div className="mt-6 flex flex-wrap items-center gap-3 md:mt-8 md:gap-4">
                 <a
                   href="/bestellen"
-                  className="inline-flex items-center justify-center rounded-full bg-ink px-7 py-3 text-[13px] font-medium tracking-wide text-bone transition-colors hover:bg-ink/85"
+                  className="inline-flex items-center justify-center rounded-full bg-bone px-7 py-3 text-[13px] font-medium tracking-wide text-ink shadow-lg transition-colors hover:bg-bone/90"
                 >
                   Online bestellen
                 </a>
                 <a
                   href="#menu"
-                  className="inline-flex items-center justify-center rounded-full border border-ink/20 bg-bone/60 px-7 py-3 text-[13px] font-medium tracking-wide text-ink backdrop-blur-sm transition-colors hover:bg-bone/80"
+                  className="inline-flex items-center justify-center rounded-full border border-bone/30 px-7 py-3 text-[13px] font-medium tracking-wide text-bone backdrop-blur-sm transition-colors hover:bg-bone/15"
                 >
                   Speisekarte
                 </a>

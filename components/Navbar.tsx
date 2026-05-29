@@ -45,7 +45,7 @@ export function Navbar() {
               alt={`${config.name} Logo`}
               className="h-20 w-20 object-contain md:h-28 md:w-28"
             />
-            <span className="font-display text-[28px] tracking-tight text-ink">
+            <span className={`font-display text-[28px] tracking-tight transition-colors duration-500 ${scrolled ? "text-ink" : "text-bone drop-shadow-[0_1px_6px_rgba(0,0,0,0.35)]"}`}>
               {config.name}
             </span>
           </a>
@@ -55,7 +55,7 @@ export function Navbar() {
               <a
                 key={link.href}
                 href={link.href}
-                className="group relative font-mono text-[11px] uppercase tracking-[0.22em] text-ink/65 transition-colors hover:text-ink"
+                className={`group relative font-mono text-[11px] uppercase tracking-[0.22em] transition-colors ${scrolled ? "text-ink/65 hover:text-ink" : "text-bone/70 hover:text-bone drop-shadow-[0_1px_4px_rgba(0,0,0,0.3)]"}`}
               >
                 {link.label}
                 <span className="absolute -bottom-1 left-0 h-px w-0 bg-rosso-600 transition-all duration-300 group-hover:w-full" />
@@ -66,13 +66,13 @@ export function Navbar() {
           {/* Desktop: Bestellen button */}
           <a
             href="/bestellen"
-            className="group relative hidden items-center gap-3 overflow-hidden rounded-full border border-ink px-5 py-2.5 font-mono text-[11px] uppercase tracking-[0.22em] text-ink transition-transform active:scale-[0.98] md:inline-flex"
+            className={`group relative hidden items-center gap-3 overflow-hidden rounded-full border px-5 py-2.5 font-mono text-[11px] uppercase tracking-[0.22em] transition-all duration-500 active:scale-[0.98] md:inline-flex ${scrolled ? "border-ink text-ink" : "border-bone/40 text-bone drop-shadow-[0_1px_4px_rgba(0,0,0,0.3)]"}`}
           >
             <span className="relative z-10 transition-colors group-hover:text-bone">
               Bestellen
             </span>
             <span className="relative z-10 transition-colors group-hover:text-bone">→</span>
-            <span className="absolute inset-0 -z-0 origin-left scale-x-0 bg-ink transition-transform duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-x-100" />
+            <span className={`absolute inset-0 -z-0 origin-left scale-x-0 transition-transform duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-x-100 ${scrolled ? "bg-ink" : "bg-bone/20"}`} />
           </a>
 
           {/* Mobile: Burger button */}
@@ -83,13 +83,13 @@ export function Navbar() {
           >
             <div className="flex w-5 flex-col gap-[5px]">
               <span
-                className={`block h-px w-full bg-ink transition-all duration-300 ${
-                  menuOpen ? "translate-y-[3px] rotate-45" : ""
+                className={`block h-px w-full transition-all duration-300 ${
+                  menuOpen ? "translate-y-[3px] rotate-45 bg-ink" : scrolled ? "bg-ink" : "bg-bone shadow-[0_0_2px_rgba(0,0,0,0.3)]"
                 }`}
               />
               <span
-                className={`block h-px w-full bg-ink transition-all duration-300 ${
-                  menuOpen ? "-translate-y-[3px] -rotate-45" : ""
+                className={`block h-px w-full transition-all duration-300 ${
+                  menuOpen ? "-translate-y-[3px] -rotate-45 bg-ink" : scrolled ? "bg-ink" : "bg-bone shadow-[0_0_2px_rgba(0,0,0,0.3)]"
                 }`}
               />
             </div>

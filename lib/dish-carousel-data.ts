@@ -4,6 +4,7 @@ export interface DishCarouselItem {
   price?: string;
   image: string;
   alt: string;
+  objectPosition?: string;
 }
 
 export const dishCarouselItems: DishCarouselItem[] = [
@@ -40,7 +41,8 @@ export const dishCarouselItems: DishCarouselItem[] = [
     description: "Blätterteig gefüllt mit Rinderhack und gebratenen Zwiebeln, frisch aus dem Ofen.",
     price: "5,00 €",
     image: "/assets/acquisition/dishes/gefullte-teigtasche-01.jpg",
-    alt: "Aufgeschnittene Teigtasche mit Hackfleischfüllung"
+    alt: "Aufgeschnittene Teigtasche mit Hackfleischfüllung",
+    objectPosition: "center 72%"
   },
   {
     name: "Chicken Bowl",

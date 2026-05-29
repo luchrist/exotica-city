@@ -77,11 +77,11 @@ export function Footer() {
         </div>
       </div>
 
-      {/* Italian flag stripe */}
+      {/* Mexican flag stripe */}
       <div className="mt-10 flex h-2">
-        <div className="flex-1 bg-[#009246]" />
+        <div className="flex-1 bg-[#006847]" />
         <div className="flex-1 bg-white" />
-        <div className="flex-1 bg-[#CE2B37]" />
+        <div className="flex-1 bg-[#CE1126]" />
       </div>
     </footer>
   );

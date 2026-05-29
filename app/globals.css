@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 :root {
-  --bone: #FAF8F5;
-  --ink: #15130F;
-  --rosso: #B8893E;
-  --basilico: #4F6F31;
+  --bone: #FDF6EF;
+  --ink: #1A1410;
+  --rosso: #C4512A;
+  --basilico: #4A9A2B;
 }
 
 @layer base {
