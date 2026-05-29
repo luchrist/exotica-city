@@ -1,0 +1,263 @@
+[
+  {
+    "originalFile": "scraped-02.jpg",
+    "file": "photos/dishes/nudelsalat-mit-gemuse-und-sauce-01.jpg",
+    "category": "dish",
+    "quality": "high",
+    "subject": "Nudelsalat mit Gemüse und Sauce",
+    "subjectSlug": "nudelsalat-mit-gemuse-und-sauce",
+    "description": "Ein bunter Nudelsalat mit verschiedenen Gemüsesorten und einer cremigen Sauce in einer Schale."
+  },
+  {
+    "originalFile": "scraped-03.jpg",
+    "file": "photos/dishes/wraps-und-couscous-salat-01.jpg",
+    "category": "dish",
+    "quality": "high",
+    "subject": "Wraps und Couscous-Salat",
+    "subjectSlug": "wraps-und-couscous-salat",
+    "description": "Ein Teller mit zwei in Papier gewickelten Wraps und orangefarbenem Couscous-Salat mit weißer Soße."
+  },
+  {
+    "originalFile": "scraped-04.jpg",
+    "file": "photos/restaurant/auenansicht-des-saftladens-01.jpg",
+    "category": "restaurant",
+    "quality": "high",
+    "subject": "Außenansicht des Saftladens",
+    "subjectSlug": "auenansicht-des-saftladens",
+    "description": "Die Außenansicht eines Saft- und Wrap-Ladens mit Holzbänken davor."
+  },
+  {
+    "originalFile": "scraped-05.jpg",
+    "file": "photos/dishes/wraps-mit-bulgur-und-joghurtsoe-01.jpg",
+    "category": "dish",
+    "quality": "high",
+    "subject": "Wraps mit Bulgur und Joghurtsoße",
+    "subjectSlug": "wraps-mit-bulgur-und-joghurtsoe",
+    "description": "Ein Teller mit zwei gefüllten Wraps, Bulgur und einer cremigen Joghurtsoße."
+  },
+  {
+    "originalFile": "scraped-06.jpg",
+    "file": "photos/restaurant/restaurant-innenraum-mit-theke-und-auslage-01.jpg",
+    "category": "restaurant",
+    "quality": "high",
+    "subject": "Restaurant-Innenraum mit Theke und Auslage",
+    "subjectSlug": "restaurant-innenraum-mit-theke-und-auslage",
+    "description": "Das Foto zeigt den Innenraum eines Restaurants mit einer Theke, einer Essensauslage und Menütafeln an der Wand."
+  },
+  {
+    "originalFile": "scraped-07.jpg",
+    "file": "photos/restaurant/fassade-eines-saft-und-wrap-ladens-01.jpg",
+    "category": "restaurant",
+    "quality": "high",
+    "subject": "Fassade eines Saft- und Wrap-Ladens",
+    "subjectSlug": "fassade-eines-saft-und-wrap-ladens",
+    "description": "Die Außenansicht eines modernen Saft- und Wrap-Ladens mit Holzbänken davor."
+  },
+  {
+    "originalFile": "scraped-08.jpg",
+    "file": "photos/menu_cards/speisekarten-an-der-wand-01.jpg",
+    "category": "menu_card",
+    "quality": "high",
+    "subject": "Speisekarten an der Wand",
+    "subjectSlug": "speisekarten-an-der-wand",
+    "description": "Das Foto zeigt mehrere Speisekarten mit Angeboten für Wraps, Salate, Bowls, Fruchtboxen und Säfte an einer Wand."
+  },
+  {
+    "originalFile": "scraped-09.jpg",
+    "file": "photos/restaurant/salatbar-mit-frischen-zutaten-01.jpg",
+    "category": "restaurant",
+    "quality": "high",
+    "subject": "Salatbar mit frischen Zutaten",
+    "subjectSlug": "salatbar-mit-frischen-zutaten",
+    "description": "Eine Salatbar mit verschiedenen frischen Salaten und Gemüse in einem Restaurant."
+  },
+  {
+    "originalFile": "scraped-10.jpg",
+    "file": "photos/dishes/salatschale-mit-fleisch-und-avocado-01.jpg",
+    "category": "dish",
+    "quality": "high",
+    "subject": "Salatschale mit Fleisch und Avocado",
+    "subjectSlug": "salatschale-mit-fleisch-und-avocado",
+    "description": "Eine bunte Salatschale mit Fleischstücken, Avocado, Brokkoli und einer gelben Soße, garniert mit Röstzwiebeln."
+  },
+  {
+    "originalFile": "scraped-11.jpg",
+    "file": "photos/dishes/hahnchen-wrap-01.jpg",
+    "category": "dish",
+    "quality": "high",
+    "subject": "Hähnchen-Wrap",
+    "subjectSlug": "hahnchen-wrap",
+    "description": "Ein appetitlicher Hähnchen-Wrap gefüllt mit Salat, Gemüse und Hähnchenstücken."
+  },
+  {
+    "originalFile": "scraped-12.jpg",
+    "file": "photos/restaurant/restaurant-innenraum-mit-sitzgelegenheiten-01.jpg",
+    "category": "restaurant",
+    "quality": "high",
+    "subject": "Restaurant-Innenraum mit Sitzgelegenheiten",
+    "subjectSlug": "restaurant-innenraum-mit-sitzgelegenheiten",
+    "description": "Das Foto zeigt den hellen und einladenden Innenraum eines Restaurants mit bequemen Sitzbänken und Blick auf die Straße."
+  },
+  {
+    "originalFile": "scraped-13.jpg",
+    "file": "photos/restaurant/restaurant-innenraum-mit-sitzgelegenheiten-02.jpg",
+    "category": "restaurant",
+    "quality": "high",
+    "subject": "Restaurant-Innenraum mit Sitzgelegenheiten",
+    "subjectSlug": "restaurant-innenraum-mit-sitzgelegenheiten",
+    "description": "Das Foto zeigt den hellen und modern eingerichteten Innenraum eines Restaurants mit Holztischen, Hockern und einer langen Sitzbank."
+  },
+  {
+    "originalFile": "scraped-14.jpg",
+    "file": "photos/dishes/falafel-wrap-mit-frischem-gemuse-01.jpg",
+    "category": "dish",
+    "quality": "high",
+    "subject": "Falafel-Wrap mit frischem Gemüse",
+    "subjectSlug": "falafel-wrap-mit-frischem-gemuse",
+    "description": "Ein appetitlicher Falafel-Wrap, umgeben von frischem, geschnittenem Gemüse wie Gurken, Tomaten, Paprika und Salat, auf einem weißen Teller präsentiert."
+  },
+  {
+    "originalFile": "scraped-15.jpg",
+    "file": "photos/dishes/ksr-bulgursalat-01.jpg",
+    "category": "dish",
+    "quality": "high",
+    "subject": "Kısır Bulgursalat",
+    "subjectSlug": "ksr-bulgursalat",
+    "description": "Ein appetitlicher Teller Kısır Bulgursalat, garniert mit frischen Zitronenspalten, Gurkenscheiben und einer Tomatenrose."
+  },
+  {
+    "originalFile": "scraped-16.jpg",
+    "file": "photos/dishes/falafel-bowl-und-orangensaft-01.jpg",
+    "category": "dish",
+    "quality": "high",
+    "subject": "Falafel-Bowl und Orangensaft",
+    "subjectSlug": "falafel-bowl-und-orangensaft",
+    "description": "Eine bunte Falafel-Bowl mit Salat, Couscous und verschiedenen Saucen, begleitet von einem Glas Orangensaft."
+  },
+  {
+    "originalFile": "scraped-17.jpg",
+    "file": "photos/dishes/nudelgericht-mit-gemuse-und-gebackrolle-01.jpg",
+    "category": "dish",
+    "quality": "high",
+    "subject": "Nudelgericht mit Gemüse und Gebäckrolle",
+    "subjectSlug": "nudelgericht-mit-gemuse-und-gebackrolle",
+    "description": "Ein Nudelgericht mit cremiger Soße, verschiedenen Gemüsesorten und einer knusprigen Gebäckrolle in einer Schale."
+  },
+  {
+    "originalFile": "scraped-18.jpg",
+    "file": "photos/restaurant/fassade-des-imbisses-exotica-01.jpg",
+    "category": "restaurant",
+    "quality": "high",
+    "subject": "Fassade des Imbisses Exotica",
+    "subjectSlug": "fassade-des-imbisses-exotica",
+    "description": "Das Foto zeigt die beleuchtete Fassade des Imbisses Exotica mit Schildern für Säfte, Wraps und Salate sowie einem Fahrrad davor."
+  },
+  {
+    "originalFile": "scraped-19.jpg",
+    "file": "photos/dishes/wraps-mit-salat-und-getrank-01.jpg",
+    "category": "dish",
+    "quality": "high",
+    "subject": "Wraps mit Salat und Getränk",
+    "subjectSlug": "wraps-mit-salat-und-getrank",
+    "description": "Zwei aufgeschnittene Wraps mit einem Bulgursalat und einem Getränk auf einem Holztisch."
+  },
+  {
+    "originalFile": "scraped-20.jpg",
+    "file": "photos/restaurant/restaurant-innenraum-mit-theke-und-speisekarten-01.jpg",
+    "category": "restaurant",
+    "quality": "high",
+    "subject": "Restaurant-Innenraum mit Theke und Speisekarten",
+    "subjectSlug": "restaurant-innenraum-mit-theke-und-speisekarten",
+    "description": "Dieses Foto zeigt den Innenraum eines Restaurants mit einer gut gefüllten Theke und beleuchteten Speisekarten an der Wand."
+  },
+  {
+    "originalFile": "scraped-21.jpg",
+    "file": "photos/menu_cards/speisekarte-mit-wraps-boreks-und-salaten-01.jpg",
+    "category": "menu_card",
+    "quality": "high",
+    "subject": "Speisekarte mit Wraps, Böreks und Salaten",
+    "subjectSlug": "speisekarte-mit-wraps-boreks-und-salaten",
+    "description": "Eine gut beleuchtete Speisekarte zeigt verschiedene Wraps, Böreks und Salate mit Preisen in Euro."
+  },
+  {
+    "originalFile": "scraped-22.jpg",
+    "file": "photos/restaurant/auslage-mit-geback-und-salaten-01.jpg",
+    "category": "restaurant",
+    "quality": "high",
+    "subject": "Auslage mit Gebäck und Salaten",
+    "subjectSlug": "auslage-mit-geback-und-salaten",
+    "description": "Eine gut beleuchtete Auslage in einem Restaurant, gefüllt mit verschiedenen Gebäcksorten, Salaten und warmen Gerichten."
+  },
+  {
+    "originalFile": "scraped-23.jpg",
+    "file": "photos/restaurant/kaffeezubehor-auf-holztisch-01.jpg",
+    "category": "restaurant",
+    "quality": "high",
+    "subject": "Kaffeezubehör auf Holztisch",
+    "subjectSlug": "kaffeezubehor-auf-holztisch",
+    "description": "Ein Holztisch in einem Laden präsentiert verschiedene Kaffeezubehörteile und andere Artikel zum Verkauf."
+  },
+  {
+    "originalFile": "scraped-24.jpg",
+    "file": "photos/dishes/zwei-gefullte-wraps-01.jpg",
+    "category": "dish",
+    "quality": "high",
+    "subject": "Zwei gefüllte Wraps",
+    "subjectSlug": "zwei-gefullte-wraps",
+    "description": "Zwei appetitliche, gefüllte Wraps liegen auf einem dunklen Teller."
+  },
+  {
+    "originalFile": "scraped-25.jpg",
+    "file": "photos/dishes/gefullte-teigtasche-01.jpg",
+    "category": "dish",
+    "quality": "high",
+    "subject": "Gefüllte Teigtasche",
+    "subjectSlug": "gefullte-teigtasche",
+    "description": "Eine Hand hält eine aufgeschnittene, mit Fleisch gefüllte Teigtasche, eingewickelt in Alufolie, vor einem unscharfen Hintergrund mit lila Blumen."
+  },
+  {
+    "originalFile": "scraped-26.jpg",
+    "file": "photos/restaurant/getrankekuhlschrank-im-restaurant-01.jpg",
+    "category": "restaurant",
+    "quality": "high",
+    "subject": "Getränkekühlschrank im Restaurant",
+    "subjectSlug": "getrankekuhlschrank-im-restaurant",
+    "description": "Ein gut beleuchteter Getränkekühlschrank mit verschiedenen Flaschen und Bechern in einem Restaurant."
+  },
+  {
+    "originalFile": "scraped-27.jpg",
+    "file": "photos/menu_cards/werbeschild-fur-wraps-01.jpg",
+    "category": "menu_card",
+    "quality": "high",
+    "subject": "Werbeschild für Wraps",
+    "subjectSlug": "werbeschild-fur-wraps",
+    "description": "Ein Werbeschild eines Restaurants, das Wraps und deren Preise anzeigt."
+  },
+  {
+    "originalFile": "scraped-28.jpg",
+    "file": "photos/restaurant/restaurant-innenraum-mit-speisekarten-01.jpg",
+    "category": "restaurant",
+    "quality": "high",
+    "subject": "Restaurant-Innenraum mit Speisekarten",
+    "subjectSlug": "restaurant-innenraum-mit-speisekarten",
+    "description": "Das Foto zeigt den Innenraum eines Restaurants mit beleuchteten Speisekarten an der Wand und einer Deckenwerbung."
+  },
+  {
+    "originalFile": "scraped-29.jpg",
+    "file": "photos/restaurant/ladenfront-mit-schildern-01.jpg",
+    "category": "restaurant",
+    "quality": "high",
+    "subject": "Ladenfront mit Schildern",
+    "subjectSlug": "ladenfront-mit-schildern",
+    "description": "Die Außenansicht eines Ladens, der Salate, Wraps und Säfte anbietet, mit einem Banner zur Neueröffnung."
+  },
+  {
+    "originalFile": "scraped-30.jpg",
+    "file": "photos/dishes/wraps-mit-beilage-und-sauce-01.jpg",
+    "category": "dish",
+    "quality": "high",
+    "subject": "Wraps mit Beilage und Sauce",
+    "subjectSlug": "wraps-mit-beilage-und-sauce",
+    "description": "Zwei Wraps, serviert mit einer körnigen Beilage und einer cremigen Sauce auf einem Teller."
+  }
+]

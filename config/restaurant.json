@@ -1,0 +1,146 @@
+{
+  "name": "Exotica City",
+  "tagline": "Wraps, Bowls, Säfte. Frisch gerollt in Bergheim.",
+  "intro": "Ein kleiner Imbiss in der Poststraße: handgerollte Wraps, bunt belegte Bowls, frisch gepresste Säfte. Bei uns seht ihr jeden Handgriff am Tresen, von der ersten Schnittfläche bis zur fertigen Rolle.",
+  "address": {
+    "street": "Poststraße 12",
+    "city": "69115 Heidelberg",
+    "country": "Deutschland"
+  },
+  "contact": {
+    "phone": "06221 7271234",
+    "email": "",
+    "instagram": "@exotica.hyd"
+  },
+  "openingHours": [
+    { "day": "Montag",     "hours": "09:00 – 20:00" },
+    { "day": "Dienstag",   "hours": "09:00 – 20:00" },
+    { "day": "Mittwoch",   "hours": "09:00 – 20:00" },
+    { "day": "Donnerstag", "hours": "09:00 – 20:00" },
+    { "day": "Freitag",    "hours": "09:00 – 20:00" },
+    { "day": "Samstag",    "hours": "10:00 – 20:00" },
+    { "day": "Sonntag",    "hours": "Ruhetag" }
+  ],
+  "reviews": {
+    "rating": 4.5,
+    "count": 287,
+    "source": "Google",
+    "excerpts": [
+      {
+        "name": "Lisa-Marie M.",
+        "rating": 5,
+        "date": "vor 11 Monaten",
+        "text": "Kamen zufällig vorbei und sind begeistert. Alles frisch und sehr lecker! Sehr nettes und geduldiges Personal. Vielen Dank"
+      },
+      {
+        "name": "Zhiar Qassab",
+        "rating": 5,
+        "date": "vor 2 Jahren",
+        "text": "Sehr netter, kleiner Imbiss mit tollen Angeboten und frisch zubereitetem Essen. Man kann jeden Handgriff beobachten und steht in ständigem Austausch mit den freundlichen Mitarbeiterinnen. Es gibt kleine Sitzmöglichkeiten, um auch gleich vor Ort seine Mahlzeit zu genießen."
+      },
+      {
+        "name": "T K",
+        "rating": 5,
+        "date": "vor 7 Monaten",
+        "text": "Hier ist alles immer super frisch und super lecker. Ich empfehle den Classic Wrap oder den Hähnchen Salat."
+      },
+      {
+        "name": "Julze",
+        "rating": 5,
+        "date": "vor 2 Jahren",
+        "text": "Sehr nette Leute und auch schnell zubereitet. Preis-Leistung stimmt, kommen gerne wieder."
+      },
+      {
+        "name": "Nette Nette",
+        "rating": 5,
+        "date": "vor 4 Jahren",
+        "text": "Sehr netter, kleiner Imbiss mit tollen Angeboten und frisch zubereitetem Essen. Die Wraps waren richtig lecker und wir kommen gerne wieder."
+      }
+    ]
+  },
+  "menu": [
+    {
+      "category": "WRAPS",
+      "subtitle": "Handgerollt am Tresen",
+      "items": [
+        { "name": "CLASSIC",  "description": "Hähnchen, Thunfisch oder vegetarisch.",         "price": "7,20" },
+        { "name": "EXOTICA",  "description": "Rucola, Hähnchen, Schafskäse, Curry-Mango.",    "price": "8,20" },
+        { "name": "TROPICAL", "description": "Ananas, Rucola, Hähnchen, Aioli Toscana.",      "price": "8,20" },
+        { "name": "SHRIMP",   "description": "Rucola, Shrimps, Cocktailsauce.",               "price": "8,20" },
+        { "name": "BALKAN",   "description": "Sucuk, Schafskäse, Aioli.",                     "price": "8,20" },
+        { "name": "BEEF",     "description": "Rinderstreifen, Honig-Senf.",                   "price": "8,20" },
+        { "name": "FALAFEL",  "description": "Mit Sesamsauce.",                                "price": "7,40" }
+      ]
+    },
+    {
+      "category": "BÖREKS",
+      "subtitle": "Aus dem Ofen",
+      "items": [
+        { "name": "Zigarrenbörek",     "description": "Blätterteigröllchen mit Fetakäse.",                 "price": "2,50" },
+        { "name": "Hackfleischbörek",  "description": "Blätterteig mit Rinderhack und gebratenen Zwiebeln.", "price": "5,00" },
+        { "name": "Spinatbörek",       "description": "Blätterteig mit Spinat und Fetakäse.",              "price": "4,50" },
+        { "name": "Fetabörek",         "description": "Blätterteig mit Fetakäse.",                          "price": "4,00" },
+        { "name": "Fetabrötchen",      "description": "Blätterteig mit Fetakäse.",                          "price": "3,00" }
+      ]
+    },
+    {
+      "category": "SALATE",
+      "subtitle": "Frisch geschnitten",
+      "items": [
+        { "name": "Exotica Salat",   "description": "Gemischter Salat, vegetarisch.",          "price": "7,50" },
+        { "name": "Couscous Salat",  "description": "Bulgur / Kısır, vegetarisch.",            "price": "6,90" },
+        { "name": "Hähnchen Salat",  "description": "Gemischter Salat mit Hähnchen.",          "price": "8,50" },
+        { "name": "Thunfisch Salat", "description": "Gemischter Salat mit Thunfisch.",         "price": "8,20" },
+        { "name": "Tropical Salat",  "description": "Gemischter Salat mit Ananas.",            "price": "7,90" },
+        { "name": "Shrimps Salat",   "description": "Gemischter Salat mit Shrimps.",           "price": "8,90" },
+        { "name": "Falafel Salat",   "description": "Gemischter Salat mit Falafel.",           "price": "8,40" },
+        { "name": "Beilagensalat",   "description": "Zum Börek.",                              "price": "5,00" }
+      ]
+    },
+    {
+      "category": "FRUIT BOXES",
+      "subtitle": "Saisonal aufgeschnitten",
+      "items": [
+        { "name": "Obstsalat",          "description": "Gemischtes Obst der Saison.",             "price": "6,00" },
+        { "name": "Ananas Box",         "description": "Frische Ananas in Stücken.",              "price": "4,00" },
+        { "name": "Erdbeer Box",        "description": "Erdbeeren der Saison.",                   "price": "4,50" },
+        { "name": "Flug-Mango Box",     "description": "Reife Flug-Mango aufgeschnitten.",        "price": "7,00" },
+        { "name": "Wassermelonen Box",  "description": "Frische Wassermelone in Würfeln.",        "price": "4,00" },
+        { "name": "Honigmelonen Box",   "description": "Süße Honigmelone aufgeschnitten.",        "price": "5,00" },
+        { "name": "Exotic Box",         "description": "Mango, Honigmelone, Papaya, Ananas.",     "price": "8,00" }
+      ]
+    },
+    {
+      "category": "FRESH JUICES",
+      "subtitle": "Frisch gepresst am Tresen",
+      "items": [
+        { "name": "Karottensaft",          "description": "Frisch gepresst, pur.",                       "price": "3,00" },
+        { "name": "Karotte mit Ingwer",    "description": "Karotte und frischer Ingwer.",                 "price": "3,50" },
+        { "name": "Apfelsaft",             "description": "Direkt am Tresen gepresst.",                   "price": "4,00" },
+        { "name": "Orangensaft",           "description": "Frisch gepresste Orange.",                     "price": "4,00" },
+        { "name": "Grapefruitsaft",        "description": "Frisch gepresste Grapefruit.",                 "price": "4,50" },
+        { "name": "Gartensaft",            "description": "Rote Bete, Apfel, Karotte, Ingwer.",           "price": "4,50" },
+        { "name": "Granatapfelsaft",       "description": "Granatapfel mit Orangensaft.",                 "price": "5,50" },
+        { "name": "Vitamin Drink",         "description": "Apfel oder Orangensaft mit Ingwer und Karotte.", "price": "4,00" },
+        { "name": "Exotic Drink",          "description": "Ingwer, Karotte, Grapefruit.",                 "price": "4,50" },
+        { "name": "Ananasmix",             "description": "Ananas und Orange.",                           "price": "4,00" },
+        { "name": "Erdbeermix",            "description": "Erdbeere, Ananas, Orange.",                    "price": "4,00" },
+        { "name": "Kiwimix",               "description": "Kiwi, Ananas, Orange, Zitrone, Banane.",       "price": "4,00" },
+        { "name": "Mangomix",              "description": "Mango, Ananas, Orange.",                       "price": "4,50" },
+        { "name": "Milkmix",               "description": "Erdbeere oder Banane mit Milch.",              "price": "4,00" },
+        { "name": "Tropicalmix",           "description": "Mango, Ananas, Milch.",                        "price": "4,50" }
+      ]
+    },
+    {
+      "category": "BOWLS",
+      "subtitle": "Bunt belegt",
+      "items": [
+        { "name": "Chicken Bowl", "description": "Hähnchen, Salat, Bulgur, Sauce nach Wahl.",  "price": "11,90" },
+        { "name": "Falafel Bowl", "description": "Falafel, Salat, Couscous, Sesamsauce.",      "price": "11,90" },
+        { "name": "Beef Bowl",    "description": "Rinderstreifen, Salat, Bulgur, Honig-Senf.", "price": "12,50" },
+        { "name": "Shrimp Bowl",  "description": "Shrimps, Salat, Couscous, Cocktailsauce.",   "price": "12,50" },
+        { "name": "Tuna Bowl",    "description": "Thunfisch, Salat, Bulgur, Joghurtsauce.",    "price": "11,50" }
+      ]
+    }
+  ]
+}
