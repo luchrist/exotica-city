@@ -15,14 +15,14 @@ export function Menu() {
         <div className="grid grid-cols-12 gap-6">
           <div className="col-span-12 md:col-span-3">
             <div className="flex items-center gap-3 font-mono text-[11px] uppercase tracking-[0.22em] text-bone/55">
-              <span className="block h-[6px] w-[6px] rounded-full bg-basilico-400" />
+              <span className="block h-[6px] w-[6px] rounded-full bg-mango-300" />
               <span>Speisekarte</span>
             </div>
           </div>
           <div className="col-span-12 md:col-span-9">
             <h2 className="font-display text-[40px] leading-[1.02] tracking-tight md:text-[64px] lg:text-[78px]">
               Wraps.
-              <span className="italic text-rosso-300"> Bowls.</span>
+              <span className="italic text-mango-300"> Bowls.</span>
               <br />
               Säfte. Frisch.
             </h2>
@@ -41,7 +41,7 @@ export function Menu() {
               >
                 <span
                   className={`font-mono text-[11px] tracking-[0.22em] transition-colors ${
-                    isActive ? "text-rosso-300" : "text-bone/40"
+                    isActive ? "text-mango-300" : "text-bone/40"
                   }`}
                 >
                   {String(i + 1).padStart(2, "0")}
@@ -56,7 +56,7 @@ export function Menu() {
                 {isActive && (
                   <motion.span
                     layoutId="menu-underline"
-                    className="absolute -bottom-[7px] left-0 right-0 h-[2px] bg-rosso-400"
+                    className="absolute -bottom-[7px] left-0 right-0 h-[2px] bg-mango-300"
                     transition={{ type: "spring", stiffness: 220, damping: 28 }}
                   />
                 )}
@@ -108,7 +108,7 @@ export function Menu() {
                     <p className="col-span-12 max-w-[60ch] text-[14px] leading-relaxed text-bone/55 md:col-span-7">
                       {item.description}
                     </p>
-                    <span className="col-span-12 font-mono text-[14px] tracking-[0.05em] text-rosso-300 md:col-span-1 md:text-right">
+                    <span className="col-span-12 font-mono text-[14px] tracking-[0.05em] text-mango-300 md:col-span-1 md:text-right">
                       {item.price}
                     </span>
                   </motion.li>

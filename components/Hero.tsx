@@ -66,7 +66,7 @@ export function Hero() {
   }, []);
 
   return (
-    <section ref={sectionRef} className="relative bg-bone">
+    <section ref={sectionRef} className="relative bg-[#903102] md:bg-bone">
       <div className="relative h-[100dvh] overflow-hidden">
         {/* Video container — full bleed */}
         <div className="absolute inset-0">
@@ -77,11 +77,11 @@ export function Hero() {
             src="/hero-poster.jpg"
             alt=""
             aria-hidden="true"
-            className={`pointer-events-none absolute left-1/2 top-1/2 z-[1] h-[60%] w-auto max-w-none -translate-x-1/2 -translate-y-1/2 object-cover transition-opacity duration-700 md:inset-0 md:h-full md:w-full md:translate-x-0 md:translate-y-0 md:object-cover ${videoReady ? "opacity-0" : "opacity-100"}`}
+            className={`pointer-events-none absolute left-1/2 top-1/2 z-[1] h-[85%] w-auto max-w-none -translate-x-1/2 -translate-y-1/2 object-cover transition-opacity duration-700 md:inset-0 md:h-full md:w-full md:translate-x-0 md:translate-y-0 md:object-cover ${videoReady ? "opacity-0" : "opacity-100"}`}
           />
           <video
             ref={videoRef}
-            className="absolute left-1/2 top-1/2 h-[60%] w-auto max-w-none -translate-x-1/2 -translate-y-1/2 md:inset-0 md:h-full md:w-full md:translate-x-0 md:translate-y-0 md:object-cover"
+            className="absolute left-1/2 top-1/2 h-[85%] w-auto max-w-none -translate-x-1/2 -translate-y-1/2 md:inset-0 md:h-full md:w-full md:translate-x-0 md:translate-y-0 md:object-cover"
             muted
             playsInline
             preload="auto"
@@ -91,7 +91,10 @@ export function Hero() {
             <source src="/hero-scrub.mp4" type="video/mp4" />
           </video>
 
-          <div className="pointer-events-none absolute inset-x-0 top-0 z-10 h-44 bg-gradient-to-b from-black/50 to-transparent md:hidden" />
+          {/* Mobile: top gradient matching video edge color */}
+          <div className="pointer-events-none absolute inset-x-0 top-0 z-10 h-56 bg-gradient-to-b from-[#903102] via-[#903102]/60 to-transparent md:hidden" />
+          {/* Mobile: bottom gradient matching video edge color */}
+          <div className="pointer-events-none absolute inset-x-0 bottom-0 z-10 h-56 bg-gradient-to-t from-[#903102] via-[#903102]/60 to-transparent md:hidden" />
 
         </div>
 
@@ -102,7 +105,7 @@ export function Hero() {
               <h1 className="font-display text-[36px] leading-[0.95] tracking-tight text-bone drop-shadow-[0_2px_12px_rgba(0,0,0,0.35)] sm:text-[44px] md:text-[58px] lg:text-[68px]">
                 Frisch gerollt,
                 <br />
-                <span className="italic text-basilico-300">frisch gepresst.</span>
+                <span className="italic text-mango-200">frisch gepresst.</span>
               </h1>
               <p className="mt-5 max-w-sm font-mono text-[12px] uppercase tracking-[0.2em] text-bone/75 drop-shadow-[0_1px_4px_rgba(0,0,0,0.3)] md:text-[13px]">
                 Wraps, Bowls und Säfte aus der Poststraße. Mitten in Bergheim.
